@@ -17,7 +17,7 @@ This script, you can immerse the Roleplay Experience for your Players to Force t
 ## Dependencies
 
 - [ox_lib](https://github.com/overextended/ox_lib)
-- [ox_target](https://github.com/overextended/ox_target)
+- [ox_target](https://github.com/overextended/ox_target) or [qb-target](https://github.com/qbcore-framework/qb-target)
 - QBCore and QBOX
 
 ## Installation
