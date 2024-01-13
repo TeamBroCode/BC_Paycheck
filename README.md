@@ -13,6 +13,7 @@ This script, you can immerse the Roleplay Experience for your Players to Force t
 - Utilizes ox_lib and ox_target.
 - Optimized and Clean Code.
 - Creates Logs for the Paychecks.
+- Supports [BC_ProgressStage](https://github.com/TeamBroCode/BC_ProgressStage)
 
 ## Dependencies
 
