@@ -30,12 +30,24 @@ This script, you can immerse the Roleplay Experience for your Players to Force t
 5. Add `ensure BC_Paycheck` to your server.cfg file.
 6. Restart your server.
 
-## Integration
-
-### Exports
+## Exports
 Can be integrated with any Job or Paycheck System, just replace the Export with your Job or Paycheck System Export.
 ```lua
 exports.BC_Paycheck:addPaycheck(source, amount, reason)
+```
+
+## Integration
+
+### Add Metadata Storage
+#### QBCORE
+Search for ``PlayerData.metadata['hunger'] = PlayerData.metadata['hunger'] or 100`` this line in for QBCore: `qb-core/server/player.lua` and just add this below it
+```lua
+PlayerData.metadata['paycheck'] = PlayerData.metadata['paycheck'] or 0
+```
+Search for ``playerData.metadata.hunger = playerData.metadata.hunger or 100`` this line in for QBOX: `qbx_core/server/player.lua` and just add this below it
+#### QBOX
+```lua
+playerData.metadata.paycheck = playerData.metadata.paycheck or 0
 ```
 
 ### QBCore
