@@ -97,3 +97,7 @@ Add it in your `qb-smallresources/server/logs.lua` file.
 ## Support
 
 If you need any help, feel free to join my [Discord Server](https://discord.gg/brocode) and write your issues in the support channel.
+
+## License
+
+This project is licensed under the [GPL-3.0 License](LICENSE).
